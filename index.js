@@ -239,7 +239,7 @@ const offersData = {
 };
 
 // Endpoint pour retourner les données statiques
-app.get("/offers", (req, res) => {
+app.get("/", (req, res) => {
   res.json(offersData);
 });
 
